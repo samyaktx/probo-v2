@@ -18,6 +18,7 @@
   "dependencies": {
     "express": "^4.21.1",
     "redis": "^4.7.0",
-    "ws": "^8.18.0"
+    "ws": "^8.18.0",
+    "api_server": "file:"
   }
 }

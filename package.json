@@ -1,0 +1,17 @@
+{
+  "name": "probo-v2-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd websockets && npx tsc -b && node dist/index.js && cd ../api_server && npx tsc -b && node dist/index.js && ../engine && npx tsc -b && node dist/index.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "probo-v2-ts": "file:../probo-v2-ts"
+  }
+}
